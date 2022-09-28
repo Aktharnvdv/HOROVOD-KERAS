@@ -2,7 +2,7 @@
 
    # *Distributed Deep Learning with Horovod*
     training of deep learning CNN model on MNIST dataset using Horovod Technique enabling faster, easier distributed training in TensorFlow.
-    it employs efficient inter-GPU communication via ring reduction  
+    it employs efficient inter-GPU communication via ring reduction.  
 
 # *Files*:
 
