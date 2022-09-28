@@ -21,16 +21,7 @@
                                  Flatten()
                                  Dense(100, activation='relu', kernel_initializer='he_uniform')
                                  Dense(10, activation='softmax')
-                 
-                 evaluate_model:
-                 
-                 summarize_diagnostic:
-                 
-                 summarize_performance:
-                 
-                 run_test_harness:
-                 
-                 
+                                 
 
 # *Libraries*:
 
