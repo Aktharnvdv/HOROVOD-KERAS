@@ -10,11 +10,17 @@
     
     distributed_deep_learning_with_horovod.py: code for integrating horovod with Tensorflow keras.
                  
-                 load_dataset  :
+                 load_dataset  : loading MNIST dataset and converting those into trainX , trainY , testX , testY
+             
+                 prep_pixel    : converting train , test into float32 and dividing those into 255
                  
-                 prep_pixel    :
-                 
-                 define_model  :
+                 define_model  : designing model
+                               
+                                 Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', input_shape=(28, 28, 1)))
+                                 MaxPooling2D((2, 2))
+                                 Flatten()
+                                 Dense(100, activation='relu', kernel_initializer='he_uniform')
+                                 Dense(10, activation='softmax')
                  
                  evaluate_model:
                  
