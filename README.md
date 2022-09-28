@@ -25,11 +25,9 @@
 
 # *Libraries*:
 
-    tensorflow ==
-    Numpy      ==
-    sklearn    ==
-    tensorflow ==
-    matplotlib ==
-    horovod    ==
-    argparse   ==
+    tensorflow == 2.4.1
+    Numpy      == 1.19.5
+    sklearn    == 1.0.2
+    matplotlib == 3.1
+    horovod    == 0.25.0
     
