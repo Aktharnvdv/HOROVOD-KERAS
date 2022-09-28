@@ -17,9 +17,13 @@
                  define_model  : designing model
                                
                                  Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', input_shape=(28, 28, 1)))
+                                 
                                  MaxPooling2D((2, 2))
+                                 
                                  Flatten()
+                                 
                                  Dense(100, activation='relu', kernel_initializer='he_uniform')
+                                 
                                  Dense(10, activation='softmax')
                                  
 
